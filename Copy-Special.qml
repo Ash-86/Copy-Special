@@ -8,13 +8,13 @@ MuseScore {
     
     //4.4 title: "Copy Special"
     //4.4 thumbnailName: "up.png"
-    //4.4 categoryCode: "composing-arranging-tools"
+    //4.4 categoryCode: ""
 	
 	Component.onCompleted : {
         if (mscoreMajorVersion >= 4) {
             title= "Copy Special"
             thumbnailName = "up.png"
-            categoryCode = "composing-arranging-tools"
+            categoryCode = ""
         }
     }	
       
