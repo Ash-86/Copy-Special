@@ -197,12 +197,10 @@ function copySelection() {
         cmd("delete")                      
         curScore.selection.selectRange(t1, t2, staves[0], staves[staves.length-1]+1);   
         
-        cmd("copy");
         curScore.endCmd();
-       
-        cmd("undo");    
-            
-
+        
+        cmd("copy");
+        cmd("undo"); 
     
     
     }//end function copyselection
