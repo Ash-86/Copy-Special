@@ -129,7 +129,7 @@ function copySelection() {
 
     
     
-    curScore.startCmd()
+    curScore.startCmd("Copy special list selection");
     /////////////////////////////////////////////////////////
     
         var notesDeleted=0
